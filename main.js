@@ -1,1 +1,0 @@
-console.log("Testing for connection on link in bio project")
