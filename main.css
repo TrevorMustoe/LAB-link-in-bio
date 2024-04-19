@@ -1,5 +1,21 @@
+html{
+  min-height: 100%;
+}
+
 body{
-  background-color: steelblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(#e66465, #9198e5)!important;
+}
+
+.main-container{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  border: solid white 2px;
 }
 
 .head-shot{
@@ -18,8 +34,7 @@ body{
 }
 
 .my-head{
-  width: 100px;
+  width: 200px;
   height: auto;
-  border-radius: 50%;
-  
+  border-radius: 20%;
 }
